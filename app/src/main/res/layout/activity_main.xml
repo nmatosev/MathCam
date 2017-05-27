@@ -1,0 +1,94 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#ff000000">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#ff000000"
+
+    tools:context=".OCRActivity" >
+    
+    <Button
+        android:id="@+id/bt_gallery"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Galerija"
+        android:background="@drawable/buttonshape"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffffff"></Button>
+
+    <Button
+        android:id="@+id/bt_camera"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="Kamera"
+        android:background="@drawable/buttonshape"
+        android:layout_gravity="center"
+        android:textColor="#ffffffff"
+        android:layout_marginTop="10dp" />
+
+    <Button
+    android:id="@+id/bt_calc"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+
+    android:text="Izračunaj"
+    android:background="@drawable/buttonshape"
+    android:layout_gravity="center"
+    android:textColor="#ffffffff"
+    android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/bt_clean"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="Očisti memoriju"
+        android:background="@drawable/buttonshape"
+        android:layout_gravity="center"
+        android:textColor="#ffffffff"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+
+        />
+    
+    <TextView
+        android:id = "@+id/tv_result"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textIsSelectable="true"
+        android:scrollbars="vertical"
+        android:textColor="#ffffffff"
+        android:textSize="45sp"
+
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:id = "@+id/tv_calc"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:textIsSelectable="true"
+        android:scrollbars="vertical"
+        android:textColor="#ffffffff"
+
+        android:layout_gravity="center" />
+    
+
+    
+</LinearLayout>
+</ScrollView>

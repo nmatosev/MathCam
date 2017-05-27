@@ -1,0 +1,5 @@
+C:\Users\neno\AndroidStudioProjects\MathCam-master\app\build\intermediates\classes\debug
+C:\Users\neno\AndroidStudioProjects\MathCam-master\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-a1176d1e9b87737621847e15cf67ee8a41a72459.jar
+C:\Users\neno\AndroidStudioProjects\MathCam-master\app\build\intermediates\pre-dexed\debug\classes-a561699f5170d88e9b899f99814197cf6064802d.jar
+C:\Users\neno\AndroidStudioProjects\MathCam-master\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-dcddff6dece1527ea260cf8b5d7802df57b56616.jar
+C:\Users\neno\AndroidStudioProjects\MathCam-master\app\build\intermediates\pre-dexed\debug\classes-0b7f0c5ef79b0b1e0e5d57df2d788197f79c25a2.jar
